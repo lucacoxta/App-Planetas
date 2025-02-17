@@ -1,16 +1,30 @@
-# myapp
+# 🌍 Gerenciador de Planetas - Flutter + SQLite
 
-A new Flutter project.
+Este é um aplicativo Android desenvolvido em **Flutter** que permite cadastrar, visualizar, editar e excluir informações sobre planetas. Os dados são armazenados localmente utilizando **SQLite**.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- 📌 **Criar** novos planetas com os seguintes campos:
+  - Nome (obrigatório)
+  - Distância do Sol (UA)
+  - Tamanho (km)
+  - Apelido (opcional)
+- 📋 **Listar** planetas cadastrados
+- 🔍 **Visualizar detalhes** de cada planeta
+- ✏️ **Editar** informações de um planeta
+- 🗑️ **Excluir** planetas com confirmação
+- 💾 **Persistência de dados** (os dados permanecem salvos mesmo após fechar o app)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Linguagem:** Dart
+- **Framework:** Flutter
+- **Banco de Dados:** SQLite
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎨 Interface
+
+- Tela inicial com a lista de planetas
+- Botão flutuante para adicionar novos planetas
+- Formulário para cadastro e edição
+- Tela de detalhes do planeta
+- Feedback visual para ações realizadas
